@@ -1,0 +1,9 @@
+﻿model,device,precision,batch_size,avg_batch_latency_ms,avg_latency_per_image_ms,throughput
+CNN Baseline,cuda,FP16 autocast,1,1.0051,1.0051,994.91
+FasterNet-T1,cuda,FP16 autocast,1,5.9695,5.9695,167.52
+CNN Baseline,cuda,FP16 autocast,8,2.3384,0.2923,3421.13
+FasterNet-T1,cuda,FP16 autocast,8,6.0087,0.7511,1331.4
+CNN Baseline,cuda,FP16 autocast,32,11.31,0.3534,2829.36
+FasterNet-T1,cuda,FP16 autocast,32,7.9841,0.2495,4007.98
+CNN Baseline,cuda,FP16 autocast,64,23.1457,0.3617,2765.1
+FasterNet-T1,cuda,FP16 autocast,64,16.6009,0.2594,3855.22
